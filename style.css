@@ -1,0 +1,171 @@
+.body{
+     background: linear-gradient(to top,#B69E9E 9%, #89D673)
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+}
+.katal{
+  display:flex ;  
+}
+
+.hello{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+
+}
+
+
+.all{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.images{
+  display: flex;
+  gap: 70px;
+
+}
+
+
+
+.underline{
+  background-color: #7573d6;
+  color: white;
+}
+
+.about{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
+.course-row{
+  display: flex;
+  align-items: stretch;
+  gap: 34px;
+}
+
+.course-desc{
+  background-color: #D9D9D9;
+  border-radius: 30px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.course-des{
+    background-color: #D9D9D9;
+  border-radius: 30px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.course-IT{
+  display: flex;
+  gap: 34px;
+}
+.courses{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+}
+
+.teachers{
+  display: flex;
+  flex-direction: column;
+}
+.teacher{
+display: flex;
+background-color: #B69E9E;
+gap: 40px;
+
+}
+.teacher-info{
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 00px;
+  box-sizing: 100px;
+  background-color: #B69E9E;
+}
+
+
+.teachers{
+  gap: 40px;
+}
+.page{
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Anna{
+  display: flex;
+  gap: 30px;
+}
+.Max{
+  display: flex;
+  gap: 30px;
+}
+.Sergay{
+  display: flex;
+  gap: 30px;
+}
+.teacher-inform{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+    padding-right: 70px;
+  padding-left: 20px;
+}
+
+.teacher-informs{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+  padding-right: 70px;
+  padding-left: 20px;
+}
+
+.teacher-informis{
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+  padding-right: 197px;
+  padding-left: 0px;
+}

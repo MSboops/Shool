@@ -58,6 +58,7 @@
 .footer{
   display: flex;
   justify-content: center;
+  margin-top: 300px;
 }
 
 .course-row{
@@ -194,4 +195,70 @@ gap: 40px;
 }
 .main{
   margin: 100px;
+}
+
+.kintakts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.seti{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mains{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.katal{
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  margin-right: 40px;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 100px;
+  height: 70px;
+  padding-left: 20px;
+}
+
+
+.Instagram{
+  display: flex;
+  gap: 10px;
+}
+.Facebook{
+  display: flex;
+  gap: 10px;
+}
+
+.VK{
+  display: flex;
+  gap: 10px;
+}
+
+.kontakt{
+  border-radius: 30px;
+  width: 100px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.shool{
+  border-radius: 30px;
+  width: 100px;
+  padding-left: 20px;
+}
+.teacherss{
+  border-radius: 30px;
+  width: 150px;
+  padding-left: 20px;
+}
+.vhod{
+  border-radius: 30px;
+  width: 75px;
+  padding-left: 20px;
 }

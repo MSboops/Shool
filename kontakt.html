@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptiv.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -12,20 +13,29 @@
 </head>
 <body class="body">
     <header class="header">
-        <div class="shool67"><a href="http://127.0.0.1:5500/index.html"><img src="img/Property 1=Default.png" alt=""></a></div>
-        <div class="katal" onmouseover="this.style.backgroundColor='#11C900'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/kurs.html">Каталог</a></h3></div>
-        <div class="shool" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/inde.html">О школе</a></h3></div>
-        <div class="teacherss" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/teachers.html">Преподаватель</a></h3></div>
-        <div class="kontakt" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/kontakt.html">Контакты</a></h3></div>
-        <div class="vhod" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3>Войти</h3></div>
+      <div class="hamburger" id="hamburger-1">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <div class="conteiner">
+        <a href="http://127.0.0.1:5500/index.html"><img class="logo" src="https://cdn.svgporn.com/logos/apache_cloudstack.svg" alt=""></a>
+      <ul class="mnu_top">
+        <li class="katal" onmouseover="this.style.backgroundColor='#11C900'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/kurs.html">Каталог</a></h3></li>
+        <li class="shool" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/inde.html">Школе</a></h3></li>
+        <li class="teacherss" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/teachers.html">Преподаватель</a></h3></li>
+        <li class="kontakt" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/kontakt.html">Контакты</a></h3></li>
+        <li class="vhod" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3>Войти</h3></li>
+        </ul>
+        </div>
     </header>
 
 <main class="mains">
-    <section class="kintakts"><p><h2>Школа Современных Технологий</h2></p>
-<p><h2>Адрес: г. Москва, ул. Прогресса, д. 12</h2></p>
-<p><h2>Телефон: +7 (495) 123-45-67</h2></p>
-<p><h2>Электронная почта: info@schooltech.ru</h2></p></section>
-<section class="seti"><p><h2>Социальные сети:</h2></p>
+    <section class="kintakts"><p class="txt"><h2>Школа Современных Технологий</h2></p>
+<p class="txt"><h2 class="txt">Адрес: г. Москва, ул. Прогресса, д. 12</h2></p>
+<p class="txt"><h2 class="txt">Телефон: +7 (495) 123-45-67</h2></p>
+<p class="txt"><h2 class="txt">Электронная почта: info@schooltech.ru</h2></p></section>
+<section class="seti"><p><h2 class="txt">Социальные сети:</h2></p>
 <p class="Instagram"><h3 class="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>Instagram: @akademiya_uspekha</h3></p>
 
 <p class="Facebook"><h3 class="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook-icon lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>Facebook: facebook.com/akademiya.uspekha</h3></p>
@@ -42,15 +52,15 @@
 
     <footer class="footer">
       <div >
-        <p>Подпишитесь на нашу рассылку, чтобы быть в курсе последних новостей и обновлений.</p>
+        <p class="txt">Подпишитесь на нашу рассылку, чтобы быть в курсе последних новостей и обновлений.</p>
          Ваш email<input type="text"><button class="underline">подписаться</button>
-        <p>© 2023 Школа Современных Технологий. Все права защищены.</p>
-        <p>
+        <p class="txt">© 2023 Школа Современных Технологий. Все права защищены.</p>
+        <p class="txt">
           <button class="underline">Политика конфиденциальности</button>
           <button class="underline">Условия использования</button>
           <button class="underline">Права на изображения</button>
         </p>
-        <p>
+        <p class="txt">
           Мы стремимся к достижению высоких стандартов образовательного процесса
           и уважению прав каждого учащегося. Если у вас есть вопросы или
           предложения, пожалуйста, свяжитесь с нами.

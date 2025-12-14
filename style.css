@@ -1,15 +1,42 @@
 .body{
  background: linear-gradient(to top,#B69E9E 9%, #89D673)
 }
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    gap: 100px;
+header .conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
+header{
+  max-width: 100%;
+  background-color: #89D673;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+ul{
+  padding-inline-start: none;
+}
+.mnu_top{
+  display: flex;
+  gap: 10px;
+}
+
+img{
+  max-width: 100%;
+}
+header .logo{
+  max-width: 150px;
+  display: block;
+}
+
+header .mnu_top li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 10px;
+}
+
 .katal{
   display:flex ;  
+  padding: 0px;
 }
 
 .hello{
@@ -215,15 +242,14 @@ gap: 40px;
   gap: 100px;
 }
 .katal{
+  align-items: center;
   background: transparent;
   border: none;
-  font-size: 18px;
-  margin-right: 40px;
+  margin-right: 0px;
   cursor: pointer;
   border-radius: 30px;
-  width: 100px;
-  height: 70px;
-  padding-left: 20px;
+  width: 70px;
+
 }
 
 
@@ -243,22 +269,22 @@ gap: 40px;
 
 .kontakt{
   border-radius: 30px;
-  width: 100px;
-  margin-left: 10px;
-  padding-left: 10px;
+  width: 80px;
+
 }
 .shool{
   border-radius: 30px;
-  width: 100px;
-  padding-left: 20px;
+  width: 60px;
+  padding-right: 10px;
 }
 .teacherss{
   border-radius: 30px;
-  width: 150px;
-  padding-left: 20px;
+  width: 130px;
+  padding-left: 0px;
 }
 .vhod{
   border-radius: 30px;
-  width: 75px;
-  padding-left: 20px;
+  width: 60px;
+  padding-left: 0px;
 }
+

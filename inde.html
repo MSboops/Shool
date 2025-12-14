@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О школе N67</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptiv.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -12,12 +13,21 @@
 </head>
 <body class="body">
     <header class="header">
-        <div class="shool67"><a href="http://127.0.0.1:5500/index.html"><img src="img/Property 1=Default.png" alt=""></a></div>
-        <div class="katal" onmouseover="this.style.backgroundColor='#11C900'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/kurs.html">Каталог</a></h3></div>
-        <div class="shool" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/inde.html">О школе</a></h3></div>
-        <div class="teacherss" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/teachers.html">Преподаватель</a></h3></div>
-        <div class="kontakt" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/kontakt.html">Контакты</a></h3></div>
-                <div class="vhod" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3>Войти</h3></div>
+      <div class="hamburger" id="hamburger-1">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <div class="conteiner">
+        <a href="http://127.0.0.1:5500/index.html"><img class="logo" src="https://cdn.svgporn.com/logos/apache_cloudstack.svg" alt=""></a>
+      <ul class="mnu_top">
+        <li class="katal" onmouseover="this.style.backgroundColor='#11C900'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/kurs.html">Каталог</a></h3></li>
+        <li class="shool" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/inde.html">Школе</a></h3></li>
+        <li class="teacherss" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/teachers.html">Преподаватель</a></h3></li>
+        <li class="kontakt" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3><a href="http://127.0.0.1:5500/kontakt.html">Контакты</a></h3></li>
+        <li class="vhod" onmouseover="this.style.backgroundColor='#FFFFFF'" onmouseout="this.style.backgroundColor=''"><h3>Войти</h3></li>
+        </ul>
+        </div>
     </header>
 
 
@@ -28,26 +38,26 @@
         <h1>О школе</h1>
 
         <div class="about-text">
-            <p><strong><h1>Общеобразовательная школа №67</h1></strong></p>
-            <p><strong><h2>Общая информация:</h2></strong><br>
+            <p class="txt"><strong><h1>Общеобразовательная школа №67</h1></strong></p>
+            <p class="txt"><strong><h2>Общая информация:</h2></strong><br>
                 <h3>Основанная в 1995 году, школа предоставляет полное общее образование, охватывающее все основные
                 предметы и развивающее творческие и спортивные способности учащихся.</h3>
             </p>
 
-            <p><strong><h2>Учебные предметы:</h2></strong><br>
+            <p class="txt"><strong><h2>Учебные предметы:</h2></strong><br>
                 <h3>Основные предметы: математика, русский язык, литература, история и естествознание.</h3></p>
 
-            <p>
+            <p class="txt">
                 <h3>Иностранные языки: английский и немецкий языки, с возможностью изучения дополнительных языков
                 для старшеклассников.</h3></p>
 
-            <p>
+            <p class="txt">
                 <h3>Творческие дисциплины: музыка, изобразительное искусство и театральное искусство.</h3>            </p>
 
-            <p>
+            <p class="txt">
                 <h3>Физическая культура: занятия спортом, включая баскетбол, футбол и лёгкую атлетику.</h3>            </p>
 
-            <p><strong><h2>Преподавательский состав:</h2></strong><br>
+            <p class="txt"><strong><h2>Преподавательский состав:</h2></strong><br>
                <h3> В школе работает команда квалифицированных преподавателей, среди которых:</h3>            </p>
 
             <ul>
@@ -56,26 +66,26 @@
                 <li><h3>Сергей Кузнецов – преподаватель по созданию игр.</h3></li>
             </ul>
 
-            <p><strong><h2>Внеклассные мероприятия:</h2></strong><br>
+            <p class="txt"><strong><h2>Внеклассные мероприятия:</h2></strong><br>
                 <h3>Школа активно поддерживает участие учеников во внеклассных активностях, включая:</h3>
             </p>
 
-            <p>
+            <p class="txt">
                 <h3>Спортивные секции: футбол, волейбол и лёгкая атлетика.</h3><br>
                 <h3>Творческие кружки: художественная мастерская и кружок театрального искусства.</h3>
             </p>
 
-            <p>
+            <p class="txt">
                 <h3>Клуб волонтёров: участие в социальных проектах и акциях по помощи местному сообществу.</h3>
             </p>
 
-            <p><strong><h2>Итоги и достижения</h2></strong><br>
+            <p class="txt"><strong><h2>Итоги и достижения</h2></strong><br>
                 <h3>Школа №67 «Солнце» гордится тем, что её выпускники успешно продолжают обучение в ведущих вузах и
                 становятся активными членами общества. Учебный процесс ориентирован на развитие не только академических
                 знаний,</h3></p><p><h3>но и личностных качеств, что создаёт благоприятную атмосферу для общения и обучения.</h3>
             </p>
 
-            <p>
+            <p class="txt">
                 <h3>Приходите и станьте частью нашей дружной и творческой школьной семьи в школе №67 «Солнце»!</h3>
             </p>
         </div>

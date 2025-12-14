@@ -1,14 +1,10 @@
-ReactDOM.render(React.createElement("",{
-  onMouseEnter: () => console.log("Mouse over"),
-  
-}), document.getElementById("katal"))
-
-import { Instagram } from 'lucide-react';
-
-const App = () => {
-  return (
-    <Instagram />
-  );
-};
-
-export default App;
+$(function(){
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+    if($(this).hasClass('is-active')){
+      $('.mnu_top').slideDown(300);
+    }else{
+      $('.mnu_top').slideUp(300);
+    }
+  })
+})

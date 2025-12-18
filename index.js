@@ -8,3 +8,15 @@ $(function(){
     }
   })
 })
+const hamburger = document.getElementById('hamburger');
+const mnu_top = document.getElementById('mnu_top');
+
+hamburger.addEventListener('click', () => {
+  mnu_top.classList.toggle('show');
+});
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth >= 768) {
+    mnu_top.classList.remove('show');
+  }
+});

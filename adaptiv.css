@@ -1,18 +1,11 @@
-@media  screen and (max-width: 1200px) {
-    .header{
-        gap: 30pxpx;
-    }
-    .footer{
-        margin-left: 50px;
-    }
+@media   (max-width: 1200px) {
+
 }
 @media screen and(max-width: 992px) {
-    .header{
-        gap: 50px;
-    }
+
 }
 
-@media screen and(max-width: 768px){
+@media (max-width: 768px){
     .mains{
         display: flex;
         align-items: center;  
@@ -27,6 +20,13 @@
     }
 }
 @media (min-width: 768px) {
+  .conteiner{
+    gap: 60px;
+  } 
+  .menu{
+    display: none;
+  }
+  
   .hamburger {
     display: none;
   }
@@ -36,7 +36,7 @@
 }
 @media (max-width: 767px) {
     .header{
-        display: flex;
+    display: flex;
     }
   .hamburger {
     display: flex;
@@ -52,5 +52,9 @@
   }
   .mnu_top.show {
     display: flex;
+  }
+  .container{
+    display: flex;
+    gap: 100px;
   }
 }
